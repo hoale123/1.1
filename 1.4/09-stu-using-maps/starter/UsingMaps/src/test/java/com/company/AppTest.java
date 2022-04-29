@@ -8,10 +8,10 @@ import org.junit.contrib.java.lang.system.SystemOutRule;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 public class AppTest {
 
@@ -201,38 +201,38 @@ public class AppTest {
     //     systemOutRule.clearLog();
     // }
 
-    // @Test
-    // public void shouldModifyAndReturnMap() {
-    //     HashMap<String, Integer> expected1 = new HashMap<>();
+     @Test
+     public void shouldModifyAndReturnMap() {
+         HashMap<String, Integer> expected1 = new HashMap<>();
 
-    //     expected1.put("Toyota Camry", 2012);
-    //     expected1.put("Chevy Camaro", 1969);
-    //     expected1.put("Hyundai Genesis", 2015);
-    //     expected1.put("Honda Civic", 2018);
-    //     expected1.put("Pontiac GTO", 1964);
-    //     expected1.put("Ford Explorer", 2012);
-    //     expected1.put("Smart Fortwo", 2013);
+         expected1.put("Toyota Camry", 2012);
+         expected1.put("Chevy Camaro", 1969);
+         expected1.put("Hyundai Genesis", 2015);
+         expected1.put("Honda Civic", 2018);
+         expected1.put("Pontiac GTO", 1964);
+         expected1.put("Ford Explorer", 2012);
+         expected1.put("Smart Fortwo", 2013);
 
-    //     HashMap<String, Integer> expected2 = new HashMap<>();
+         HashMap<String, Integer> expected2 = new HashMap<>();
 
-    //     expected2.put("Toyota Camry", 2012);
-    //     expected2.put("Chevy Camaro", 1969);
-    //     expected2.put("Hyundai Genesis", 2015);
-    //     expected2.put("Honda Civic", 2018);
-    //     expected2.put("Pontiac GTO", 1964);
-    //     expected2.put("Chevy Silverado", 2013);
-    //     expected2.put("Hyundai Sonata", 2019);
-    //     expected2.put("Nissan Altima", 1964);
-    //     expected2.put("Ford Explorer", 2012);
-    //     expected2.put("Smart Fortwo", 2013);
+         expected2.put("Toyota Camry", 2012);
+         expected2.put("Chevy Camaro", 1969);
+         expected2.put("Hyundai Genesis", 2015);
+         expected2.put("Honda Civic", 2018);
+         expected2.put("Pontiac GTO", 1964);
+         expected2.put("Chevy Silverado", 2013);
+         expected2.put("Hyundai Sonata", 2019);
+         expected2.put("Nissan Altima", 1964);
+         expected2.put("Ford Explorer", 2012);
+         expected2.put("Smart Fortwo", 2013);
 
-    //     Map<String, Integer> output1 = tester.mapFun(cars1);
-    //     Map<String, Integer> output2 = tester.mapFun(cars2);
+         Map<String, Integer> output1 = tester.mapFun(cars1);
+         Map<String, Integer> output2 = tester.mapFun(cars2);
 
-    //     String failMessage = "Expected Jeep to be removed and Explorer and Fortwo to be added to the Map";
-    //     assertEquals(failMessage, output1, expected1);
-    //     assertEquals(failMessage, output2, expected2);
-    // }
+         String failMessage = "Expected Jeep to be removed and Explorer and Fortwo to be added to the Map";
+         assertEquals(failMessage, output1, expected1);
+         assertEquals(failMessage, output2, expected2);
+     }
 
     // @Test
     // public void shouldReturnCarListMap() {
