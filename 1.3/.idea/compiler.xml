@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="UserIO" />
+        <module name="interfaces" />
+        <module name="ShapesPerimeters" />
+        <module name="ShapesPerimeters (1)" />
+        <module name="composition" />
+        <module name="UserIO (1)" />
+        <module name="Inheritance" />
+        <module name="composition (1)" />
+        <module name="CompositionHome" />
+        <module name="Inheritance (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="composition" target="1.8" />
+      <module name="composition (1)" target="1.8" />
+      <module name="CompositionHome" target="1.8" />
+      <module name="Inheritance" target="1.8" />
+      <module name="Inheritance (1)" target="1.8" />
+      <module name="interfaces" target="1.8" />
+      <module name="ShapesPerimeters" target="1.8" />
+      <module name="ShapesPerimeters (1)" target="1.8" />
+      <module name="UserIO" target="1.8" />
+      <module name="UserIO (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

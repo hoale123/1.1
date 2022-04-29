@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/1.3.iml" filepath="$PROJECT_DIR$/.idea/1.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-stu-composition-home/solved/CompositionHome/CompositionHome.iml" filepath="$PROJECT_DIR$/04-stu-composition-home/solved/CompositionHome/CompositionHome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-we-inheritance/solved/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/05-we-inheritance/solved/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-we-inheritance/starter/Inheritance/Inheritance (1).iml" filepath="$PROJECT_DIR$/05-we-inheritance/starter/Inheritance/Inheritance (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-stu-shapes-perimeters/solved/ShapesPerimeters/ShapesPerimeters.iml" filepath="$PROJECT_DIR$/06-stu-shapes-perimeters/solved/ShapesPerimeters/ShapesPerimeters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-stu-shapes-perimeters/starter/ShapesPerimeters/ShapesPerimeters (1).iml" filepath="$PROJECT_DIR$/06-stu-shapes-perimeters/starter/ShapesPerimeters/ShapesPerimeters (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-stu-userio-interface/solved/UserIO/UserIO.iml" filepath="$PROJECT_DIR$/02-stu-userio-interface/solved/UserIO/UserIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-stu-userio-interface/starter/UserIO/UserIO (1).iml" filepath="$PROJECT_DIR$/02-stu-userio-interface/starter/UserIO/UserIO (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-we-composition-account/solved/Composition/composition.iml" filepath="$PROJECT_DIR$/03-we-composition-account/solved/Composition/composition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-we-composition-account/starter/Composition/composition (1).iml" filepath="$PROJECT_DIR$/03-we-composition-account/starter/Composition/composition (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-we-interface-declaration/solved/Interfaces/interfaces.iml" filepath="$PROJECT_DIR$/01-we-interface-declaration/solved/Interfaces/interfaces.iml" />
+    </modules>
+  </component>
+</project>

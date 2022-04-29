@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/03-we-composition-account.iml" filepath="$PROJECT_DIR$/.idea/03-we-composition-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solved/Composition/composition.iml" filepath="$PROJECT_DIR$/solved/Composition/composition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter/Composition/composition (1).iml" filepath="$PROJECT_DIR$/starter/Composition/composition (1).iml" />
+    </modules>
+  </component>
+</project>
